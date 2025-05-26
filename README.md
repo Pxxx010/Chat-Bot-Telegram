@@ -4,7 +4,7 @@ Este é um bot do Telegram desenvolvido para automatizar o processo de agendamen
 
 ## Demonstração
 
-![Demonstração do Bot](video.mp4)
+[![Demonstração do Bot](https://img.youtube.com/vi/gKHHa84-Sp8/maxresdefault.jpg)](https://youtube.com/shorts/gKHHa84-Sp8)
 
 ## Funcionalidades
 

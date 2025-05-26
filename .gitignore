@@ -31,9 +31,11 @@ ENV/
 bot_mecanica.log
 
 # Arquivos de dados
+# Mantendo agendamentos.json versionado para demonstração
 *.json
 !package.json
 !package-lock.json
+!agendamentos.json
 
 # IDEs e editores
 .idea/
