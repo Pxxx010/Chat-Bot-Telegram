@@ -1,0 +1,54 @@
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+.env
+
+# Arquivos de log
+*.log
+bot_mecanica.log
+
+# Arquivos de dados
+*.json
+!package.json
+!package-lock.json
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração local
+config.local.py
+*.local.py
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+*~ 
