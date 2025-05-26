@@ -2,6 +2,8 @@
 
 Este é um bot do Telegram desenvolvido para automatizar o processo de agendamento de serviços em uma oficina mecânica.
 
+[![Bot no Telegram](https://img.shields.io/badge/Telegram-Bot-blue?style=for-the-badge&logo=telegram)](https://t.me/afnproject_bot)
+
 ## Demonstração
 
 [![Demonstração do Bot](https://img.youtube.com/vi/gKHHa84-Sp8/maxresdefault.jpg)](https://youtube.com/shorts/gKHHa84-Sp8)
