@@ -6,6 +6,7 @@ from flask import Flask, jsonify
 import threading
 import time
 from datetime import datetime
+import sys
 
 app = Flask(__name__)
 start_time = datetime.now()
@@ -37,12 +38,17 @@ def main():
         flask_thread.daemon = True
         flask_thread.start()
         
-        # Inicia o bot
-        bot.polling(none_stop=True, interval=0, timeout=20)
+        # Inicia o bot com configurações específicas
+        bot.remove_webhook()  # Remove webhook anterior se existir
+        time.sleep(1)  # Pequena pausa para garantir que o webhook foi removido
+        
+        # Configura o polling com parâmetros específicos
+        bot.polling(none_stop=True, interval=0, timeout=20, allowed_updates=[])
+        
     except Exception as e:
         logger.error(f"Erro ao iniciar o bot: {e}")
         print(f"Erro fatal: {e}")
-        raise
+        sys.exit(1)  # Força a saída do programa em caso de erro
 
 if __name__ == "__main__":
     main() 
