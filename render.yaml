@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: bot-mecanica
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python src/main.py
+    envVars:
+      - key: TELEGRAM_API_KEY
+        sync: false
+      - key: ADMIN_ID
+        sync: false 
