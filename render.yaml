@@ -8,4 +8,5 @@ services:
       - key: TELEGRAM_API_KEY
         sync: false
       - key: ADMIN_ID
-        sync: false 
+        sync: false
+    port: 8080 
